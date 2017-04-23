@@ -1,0 +1,107 @@
+body{
+font:11pt calibri;
+background:grey;
+color:grey;
+}
+
+#main{
+width:1000px;
+height:1500px;
+margin:5px;
+padding:5px;
+background-color:black;
+}
+
+#menu{
+width:1000px;
+height:30px;
+border-color:#D08434;
+border:solid;
+}
+
+
+
+marquee{
+background-color:black;
+color:#D08434;
+}
+
+#headlist{
+list-style-type:none;
+margin:0;
+padding-left:20%;
+clear:both;
+float:centre;
+}
+
+
+#headlist li{
+/*here i usd a descendant selector which was an easier method rather than setting up an ID i just targeted 000000the headlist id and its children*/
+margin:0px;
+padding:0px;
+font-family:algerian;
+border-style:none ;
+display:inline;
+border-color:#D08434;
+border:solid;
+}
+
+ul#headlist li a:hover
+{
+color: red;
+background:;
+}
+
+
+
+#floatleft{
+width:400px;
+float:left;
+}
+
+#floatrr{
+width:300px;
+float:right;
+}
+
+table th ,td{
+border:0.5px solid blue;
+/* short hand coding above for the border , this method saves time , i wanted  the border to be 0.5px with a solid black line.*/ 
+margin-left:120px;
+color:#D08434;
+margin-bottom:100px;
+background-image:url('sham.jpg');
+
+}
+
+p:first-letter {  
+    background-color: red;  
+}  
+
+
+
+
+img{
+border:none;
+padding:1px;
+margin:1px;
+}
+
+
+
+
+h2,h3{
+text-shadow: 5px 5px 5px #D08434;
+color:#D08434;
+clear:both;
+font-family:algerian;
+/*i wanted to over ride the color heritance the headers will get from the body css (grey), the coding here will be the winning declaration for all headers and change the color to gold */
+}
+
+#footer{
+margin-top:20px;
+padding-top:20px;
+/*i placed a top marging and top padding to gain some distance from the other table , the fav sports team table*/
+}
+
+
